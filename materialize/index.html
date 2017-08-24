@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Material Style Page</title>
+  <style>
+    i{font-style: normal;}
+  </style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<body>
+  <div class="card-panel btn waves-effect waves-light teal lighten-2 white-text text-darken-2 ">这是一个亮茶色的板块</div>
+  <button class="btn purple lighten-2 waves-effect waves-light">第一个按钮</button>
+  <!-- <a class="btn waves-effect waves-light">button one</a> -->
+  <a class="btn-floating btn- waves-effect waves-light red"><i class="material-icons material-icons-add">+</i></a>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="http://192.168.0.119:8095/web_login_bg.c928c1c9bfe070a87aa0.jpg">
+          <span class="card-title">模糊背景</span>
+        </div>
+        <div class="card-content">
+          <p>这是一个非常简单的卡片视图. 我可以包含一些信息.我可以很方便，因为我只需要很少一部分标记就可以达到表现的效果.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="green-text">这是一个链接</a>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+  <div class="chip">
+    <img src="http://192.168.0.119:8095/web_login_bg.c928c1c9bfe070a87aa0.jpg" alt="Contact Person">
+    Jane Doe
+    <i class="close material-icons">close</i>
+  </div>
+
+  <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input  placeholder="Placeholder" id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+            <label for="disabled">Disabled</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            This is an inline input field:
+            <div class="input-field inline">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+</body>
+</html>
